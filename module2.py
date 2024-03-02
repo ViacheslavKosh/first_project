@@ -452,3 +452,76 @@
 
 # print(factorial(5))
 
+# pool = 1000
+# quantity = int(input("Enter the number of mailings: "))
+# try:
+#     chunk = pool // quantity
+# except ZeroDivisionError:
+#     print('Divide by zero completed!')
+
+
+# def discount_price(price, discount):
+  
+#     def apply_discount():
+       
+#         nonlocal price    
+#         price = price * (1-discount)
+       
+    
+#     apply_discount()
+    
+#     return price
+# a = discount_price (100, 0.1)  
+# print(a)
+
+# def get_fullname (first_name, last_name, middle_name = "") -> str:
+#     if middle_name:
+#         fullname = f"{first_name} {last_name} {middle_name}"
+#     else:
+#         fullname = f"{first_name} {last_name}"
+#     return fullname
+# a = get_fullname("Vasya", "Vasilkov", "Vasillevich")
+# b = get_fullname("Vasya", "Vasilkov")
+# print(a)
+# print(b)
+
+# def get_fullname (first_name, last_name, middle_name = ""):
+#     fullname = f"{first_name} {last_name} {middle_name}"
+#     return fullname
+# a = get_fullname("Vasya", "Vasilkov", "Vasillevich")
+# b = get_fullname("Vasya", "Vasilkov")
+# print(a)
+# print(b)
+
+# def format_string(string, length):
+#     if len(string) == length:
+#         string = string
+#     else:
+#         len(string) < length
+#         string = " " * ((length - len(string))//2)
+#     return string
+
+# def factorial(n):
+#     if n < 2:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+# def factorial(k):
+#     if k < 2:
+#         return 1
+#     else:
+#         return k * factorial(k - 1)
+# def factorial(c):
+#     if c < 2:
+#         return 1
+#     else:
+#         return c * factorial(c - 1)
+# def number_of_groups(n, k) -> int:
+#     c = n - k
+#     winner_list = factorial(n) // (factorial(c) * factorial(k))
+#     print(winner_list)
+#     return winner_list
+# number_of_groups(50, 7)
+
+s = "Hello" 
+print(s.upper()) # Виведе 'HELLO'
