@@ -6,7 +6,7 @@ def create_db():
         sql = f.read()
 
 # створюємо з'єднання з БД (якщо файлу з БД немає, він буде створений)
-    with sqlite3.connect('d:/GOIT/THEORY/commit/first_project/example_sql/salary.sql') as con:
+    with sqlite3.connect('d:/GOIT/THEORY/commit/first_project/example_sql/salary.db') as con:
         cur = con.cursor()
 # виконуємо скрипт із файлу, який створить таблиці в БД
         cur.executescript(sql)
